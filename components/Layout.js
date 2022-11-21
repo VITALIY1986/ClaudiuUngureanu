@@ -32,17 +32,17 @@ const Layout = (props) => {
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:url" content="https://yourdomain.com" />
+<meta name="twitter:url" content="https://cos-laboratories.vercel.app/" />
 <meta name="twitter:title" content="C.O.S. Laboratories" />
 <meta name="twitter:description" content="C.O.S. Laboratories" />
-<meta name="twitter:image" content="https://www.cos-laboratories.com/wp-content/uploads/2022/10/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1-min.gif" />
+<meta name="twitter:image" content="https://www.cos-laboratories.com/wp-content/uploads/2019/11/slide-cos4.jpg?id=5340" />
 <meta name="twitter:creator" content="@DavidWShadow" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="C.O.S. Laboratories" />
 <meta property="og:description" content="C.O.S. Laboratories" />
 <meta property="og:site_name" content="C.O.S. Laboratories" />
-<meta property="og:url" content="https://yourdomain.com" />
-<meta property="og:image" content="https://www.cos-laboratories.com/wp-content/uploads/2022/10/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1-min.gif" />
+<meta property="og:url" content="https://cos-laboratories.vercel.app/" />
+<meta property="og:image" content="https://www.cos-laboratories.com/wp-content/uploads/2019/11/slide-cos4.jpg?id=5340" />
    
  
   </Head>
