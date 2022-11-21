@@ -7,11 +7,11 @@ const Layout = (props) => {
   return (
  <>
     <Head>
-    <meta name="application-name" content="PWA App" />
+    <meta name="application-name" content="C.O.S. Laboratories" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-<meta name="apple-mobile-web-app-title" content="VekaWedding" />
-<meta name="description" content="Mobile aplication" />
+<meta name="apple-mobile-web-app-title" content="C.O.S. Laboratories" />
+<meta name="description" content="C.O.S. Laboratories" />
 <meta name="format-detection" content="telephone=no" />
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="msapplication-config" content="/icons/browserconfig.xml" />
@@ -33,29 +33,29 @@ const Layout = (props) => {
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:url" content="https://yourdomain.com" />
-<meta name="twitter:title" content="VekaWedding" />
-<meta name="twitter:description" content="Mobile aplication" />
-<meta name="twitter:image" content="https://vekawedding.com/images/stories/virtuemart/product/dsc_4937.jpg" />
+<meta name="twitter:title" content="C.O.S. Laboratories" />
+<meta name="twitter:description" content="C.O.S. Laboratories" />
+<meta name="twitter:image" content="https://www.cos-laboratories.com/wp-content/uploads/2022/10/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1-min.gif" />
 <meta name="twitter:creator" content="@DavidWShadow" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="VekaWedding" />
-<meta property="og:description" content="Mobile aplication" />
-<meta property="og:site_name" content="PWA App" />
+<meta property="og:title" content="C.O.S. Laboratories" />
+<meta property="og:description" content="C.O.S. Laboratories" />
+<meta property="og:site_name" content="C.O.S. Laboratories" />
 <meta property="og:url" content="https://yourdomain.com" />
-<meta property="og:image" content="https://vekawedding.com/images/stories/virtuemart/product/dsc_4937.jpg" />
+<meta property="og:image" content="https://www.cos-laboratories.com/wp-content/uploads/2022/10/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1-min.gif" />
    
  
   </Head>
   
         <div className="wrapper">
-        <Script strategy="lazyOnload">
-    {`
-  window.replainSettings = { id: '75e15cf7-95cf-4900-a9f3-a31378d7ae6f' };
-  (function(u){var s=document.createElement('script');s.async=true;s.src=u;
-  var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-  })('https://widget.replain.cc/dist/client.js');
-    `}
-  </Script>
+     		<Script strategy="lazyOnload">
+        {`
+            window.replainSettings = { id: '57c23d8c-ad58-4f57-b0bc-d65f546cf0d4' };
+            (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+            var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+            })('https://widget.replain.cc/dist/client.js');
+        `}
+      </Script>
        
         
           {props.children}

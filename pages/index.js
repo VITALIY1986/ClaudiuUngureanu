@@ -34,20 +34,13 @@ export default function Home() {
 		<section className="drawer-list bg-very_peri  ">
       
 		<div className="abot-us ">
-      <div className='grid-about-us first'>
-    
-    <Image
-        src={About}
-        alt="Picture of the author"
-        width={250}
-      />
    
-   </div>
    <div className='grid-about-us'>
-      <h1><span >A</span>BOUT US</h1>
-      <p>VekaWedding has long become an exemplary wedding dresses manufacturer, the name of whichsounds familiar to everyone in the industry. All this is thanks to our founders and professional tailors, with long-term experience in the wedding business.</p>
-   
-   
+      <h1><strong>Despre noi</strong></h1>
+      <p><strong>C.O.S. Laboratories</strong> este o companie specializată în producerea și comercializarea de tratamente integrate dedicate îmbunătățirii sănătății și stării de bine. Liniile noastre de produse includ suplimente alimentare, vitamine și minerale esențiale pentru funcționarea optimă a organismului, realizate cu respectarea celor mai înalte standarde de eficiență și puritate.</p>
+      <p>Sănătatea și starea ta de bine este Misiunea noastră. Și pentru a ne îndeplini Misiunea, punem experiența, profesionalismul și dedicarea noastră în tot ceea ce facem, pentru a produce suplimente alimentare, vitamine și minerale esențiale de calitate menite să îți dea energie, să îți aducă echilibru și să te susțină ca un partener în tot ceea ce îți propui să faci în fiecare zi.</p>
+      <p>Gama noastră de produse acoperă toate nevoile tale, de la suplimente alimentare și vitamine pentru echilibrul și starea ta de bine de zi cu zi până la pentru perioadele de efort prelungit și susținerea performanței.</p>
+      <p>Credem în ceea ce facem și te punem pe tine și nevoile tale în centrul preocupărilor noastre, de aceea investim în cercetare & dezvoltare pentru a crea mereu produse noi și îmbunătățite menite să îți ofere tot ceea ce ai nevoie pentru a te simți mereu plin de energie și pregătit să faci totul pentru a-ți îndeplini visele.</p>
    </div>
 		</div>
 			</section>
@@ -63,11 +56,11 @@ export default function Home() {
       />
        <div className={styles.main_container}>
        <div className={styles.header_container}>
-       <Image
+       {/*<Image
         src={Logo}
         alt="Picture of the author"
         width={250}
-      />
+/>*/}
     </div> 
     
         <div className={styles.own_container}> 
@@ -75,23 +68,25 @@ export default function Home() {
      
     <div className={styles.block_button }>
       <div className={styles.vk_block }>
-        <p className={styles.vk_title }>@VekaWedding</p>
-        <p className={styles.vk_description }>wedding couture</p>
+        <p className={styles.vk_title }>@cos_laboratories</p>
+     
         
       </div>
       <div className={styles.socials }></div>
-     <button className={styles.c_button }>  <Link href="https://vekawedding.com/en/"><Image
+      <button className={styles.c_button }>  <Link href="https://www.cos-laboratories.com/"><Image
 	className={styles.favicon}
 		src={Favicon}
 		alt="Picture of the author"
 		width={42}
-	  /><p>vekawedding.com</p></Link></button> 
-      <button className={styles.c_button }><Link href="https://vekawedding.com/en/wedding-dresses/collection-2021"> <div className={styles.marquees } ><span className={styles.marquee }>	&#128141; Wedding dress fashion models in 2023. 	&#128141; </span></div></Link></button>
-      <button className={styles.c_button } ><Link href="https://vekawedding.com/en/contacts"><p>Information for partners</p></Link></button>
-      <button className={styles.c_button }><Link href="/"><p>Blog</p></Link></button>
+	  /><p>cos-laboratories.com</p></Link></button>
+      <button className={styles.c_button }><Link href="https://pentru-par.cos-laboratories.com/"> <div className={styles.marquees } ><span className={styles.marquee }> &#9989; Vitamine pentru par complex de recuperare &#9989; </span></div></Link></button>
+      <button className={styles.c_button } ><Link href="https://www.google.com/maps/place/C.O.S+Laboratories/@47.1487675,27.6434634,15z/data=!4m6!3m5!1s0x40caf9a6ab1f9bc1:0x34e6725adc68da!8m2!3d47.1487675!4d27.6434634!16s%2Fg%2F11jsghm_kt"><p>Google map</p></Link></button>
+      <button className={styles.c_button }><Link href="https://www.youtube.com/channel/UCnIqJK0voUF-UkVbOf1TCUg"><p>Yutube</p></Link></button>
      
     </div>
-    
+    <iframe
+src="https://www.youtube.com/embed/gvc4cQzYJu0">
+</iframe>
     
     </div>
     
