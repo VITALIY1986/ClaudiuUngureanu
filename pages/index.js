@@ -7,10 +7,20 @@ import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import About from "../public/about-as.jpg"
 import Background_full from "../public/bak.jpg"
+import YouTube from "react-youtube";
 import Layout from '../components/Layout.js'
 export default function Home() {
-  
+ 
+    const opts = {
+    
+      width: "350",
+      playerVars: {
+        autoplay: 0,
+      },
+    };
+    
   return (
+    
 <Layout>
    
     <div className={styles.container}>
@@ -84,9 +94,9 @@ export default function Home() {
       <button className={styles.c_button }><Link href="https://www.youtube.com/channel/UCnIqJK0voUF-UkVbOf1TCUg"><p>Yutube</p></Link></button>
      
     </div>
-    <iframe
-src="https://www.youtube.com/embed/gvc4cQzYJu0">
-</iframe>
+    <YouTube videoId="gvc4cQzYJu0" 
+            opts={opts}  />
+  
     
     </div>
     
@@ -107,4 +117,5 @@ src="https://www.youtube.com/embed/gvc4cQzYJu0">
     </div>
     </Layout>
   )
+  
 }
