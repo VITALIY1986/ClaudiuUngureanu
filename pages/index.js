@@ -12,8 +12,8 @@ import Layout from '../components/Layout.js'
 export default function Home() {
  
     const opts = {
-    
-      width: "250",
+      height: "120",
+      width: "200",
       playerVars: {
         autoplay: 0,
       },
