@@ -13,6 +13,7 @@ export default function Home() {
  
     const opts = {
     
+      width: "250",
       playerVars: {
         autoplay: 0,
       },
