@@ -11,7 +11,13 @@ import YouTube from "react-youtube";
 import Layout from '../components/Layout.js'
 export default function Home() {
  
-   
+    const opts = {
+      height: "140",
+      width: "230",
+      playerVars: {
+        autoplay:1,
+      },
+    };
     
   return (
     
@@ -89,7 +95,7 @@ export default function Home() {
      
     </div>
     <YouTube videoId="gvc4cQzYJu0" 
-           />
+            opts={opts}  />
   
     
     </div>
