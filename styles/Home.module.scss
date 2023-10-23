@@ -106,7 +106,7 @@ object-position: center;
   display: flex;
   justify-content: center;
   box-shadow: 2px 0 5px 0 rgba(0, 0, 0, 0.431);
-  
+  position: relative;
   /* Вендорные префиксы для разных браузеров */
   -webkit-font-smoothing: antialiased; /* Для Safari и старых версий Chrome */
   -webkit-backdrop-filter: blur(8px); /* Для Safari и старых версий Chrome */
