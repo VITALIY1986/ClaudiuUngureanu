@@ -5,7 +5,12 @@
   white-space:nowrap;
   overflow:hidden;
 }
-
+.block_video{
+  object-fit: cover;
+position: absolute;
+width: 100%;
+height: 100%;
+}
 .marquee  {
   font-family: system-ui;
     font-weight: 300;
@@ -42,6 +47,16 @@ position: absolute;
 left: 3px;
 top: 6%;
 animation: radial-anakausug 1s infinite;
+
+/* Вендорные префиксы для различных браузеров */
+-webkit-border-radius: 100%; /* Для Safari и старых версий Chrome */
+-moz-border-radius: 100%; /* Для Firefox */
+-ms-border-radius: 100%; /* Для Internet Explorer */
+-o-border-radius: 100%; /* Для старых версий Opera */
+-webkit-animation: radial-anakausug 1s infinite; /* Для Safari и старых версий Chrome */
+-moz-animation: radial-anakausug 1s infinite; /* Для Firefox */
+-ms-animation: radial-anakausug 1s infinite; /* Для Internet Explorer */
+-o-animation: radial-anakausug 1s infinite; /* Для старых версий Opera */
 }
 @keyframes radial-anakausug {
   0% { box-shadow: 0 0 0 0px rgba(255, 170, 91, 0.595); }  

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
-import Bg from "../public/11.jpg"
+import Bg from "../public/11.mp4"
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import About from "../public/about-as.jpg"
@@ -58,12 +58,11 @@ export default function Home() {
       </div>
   
       <main className={styles.main } >
-      <Image
-    className='bg_pc'
-    src={Bg}
-    alt="Picture of the author"
-       
-      />
+     
+       <video autoPlay loop muted className={styles.block_video}>
+        <source src={Bg} type="video/mp4" />
+        Ваш браузер не поддерживает видео.
+      </video>
        <div className={styles.main_container}>
        <div className={styles.header_container}>
        {/*<Image
@@ -94,7 +93,7 @@ export default function Home() {
       <button className={styles.c_button }><Link href="https://www.youtube.com/channel/UCnIqJK0voUF-UkVbOf1TCUg"><p>Yutube</p></Link></button>
      
     </div>
-    <YouTube videoId="gvc4cQzYJu0" 
+    <YouTube videoId="HdGVm98fSIk" 
             opts={opts}  />
   
     
