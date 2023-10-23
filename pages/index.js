@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
-import Bg from "../public/11.mp4"
+import Bg from "../public/11.jpg"
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import About from "../public/about-as.jpg"
@@ -59,10 +59,12 @@ export default function Home() {
   
       <main className={styles.main } >
      
-       <video autoPlay loop muted className={styles.block_video}>
-        <source src={Bg} type="video/mp4" />
-        Ваш браузер не поддерживает видео.
-      </video>
+      <Image
+    className='bg_pc'
+    src={Bg}
+    alt="Picture of the author"
+       
+      />
        <div className={styles.main_container}>
        <div className={styles.header_container}>
        {/*<Image
@@ -82,12 +84,12 @@ export default function Home() {
         
       </div>
       <div className={styles.socials }></div>
-      <button className={styles.c_button }>  <Link href="https://www.cos-laboratories.com/"><Image
+      <button className={styles.c_button }> <Image
 	className={styles.favicon}
 		src={Favicon}
 		alt="Picture of the author"
 		width={42}
-	  /><p>cos-laboratories.com</p></Link></button>
+	  /> <Link href="https://www.cos-laboratories.com/" className={styles.c_button_site_link }><p>cos-laboratories.com</p></Link></button>
       <button className={styles.c_button }><Link href="https://pentru-par.cos-laboratories.com/"> <div className={styles.marquees } ><span className={styles.marquee }> &#9989; Vitamine pentru par complex de recuperare &#9989; </span></div></Link></button>
       <button className={styles.c_button } ><Link href="https://www.google.com/maps/place/C.O.S+Laboratories/@47.1487675,27.6434634,15z/data=!4m6!3m5!1s0x40caf9a6ab1f9bc1:0x34e6725adc68da!8m2!3d47.1487675!4d27.6434634!16s%2Fg%2F11jsghm_kt"><p>Google Maps</p></Link></button>
       <button className={styles.c_button }><Link href="https://www.youtube.com/channel/UCnIqJK0voUF-UkVbOf1TCUg"><p>Yutube</p></Link></button>
