@@ -59,7 +59,7 @@ animation: radial-anakausug 1s infinite;
 -o-animation: radial-anakausug 1s infinite; /* Для старых версий Opera */
 }
 @keyframes radial-anakausug {
-  0% { box-shadow: 0 0 0 0px rgba(255, 170, 91, 0.595); }  
+  0% { box-shadow: 0 0 0 0px rgba(255, 0, 0, 0.595); }  
    
   100% { box-shadow: 0 0 0 10px rgb(243 243 243 / 0%); }
   }
@@ -94,18 +94,29 @@ object-position: center;
   color: #dfc5a8;
 }
 .c_button{
- color: #ffffff;
- font-family: system-ui;
-    font-weight: 300;
-width: 100%;
-margin-bottom: 1rem;
-border: none;
-backdrop-filter: blur(8px);
-background-color: rgba(255, 255, 255, 0.463);
-border-radius:1000px ;
-display: flex;
-    justify-content: center;
-    box-shadow: 2px 0px 5px 0px #0000006e;
+  color: #fff;
+  font-family: system-ui;
+  font-weight: 300;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: none;
+  backdrop-filter: blur(8px);
+  background-color: hsla(0, 0%, 100%, 0.463);
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 0 5px 0 rgba(0, 0, 0, 0.431);
+  
+  /* Вендорные префиксы для разных браузеров */
+  -webkit-font-smoothing: antialiased; /* Для Safari и старых версий Chrome */
+  -webkit-backdrop-filter: blur(8px); /* Для Safari и старых версий Chrome */
+  -moz-background-color: hsla(0, 0%, 100%, 0.463); /* Для Firefox */
+  -webkit-border-radius: 1000px; /* Для Safari и старых версий Chrome */
+  -moz-border-radius: 1000px; /* Для Firefox */
+  -ms-border-radius: 1000px; /* Для Internet Explorer */
+  -o-border-radius: 1000px; /* Для старых версий Opera */
+  
+ 
 }
 
 .block_button {
