@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
-import Bg from "../public/11.jpg"
+import Bg from "../public/11.gif"
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import About from "../public/about-as.jpg"
