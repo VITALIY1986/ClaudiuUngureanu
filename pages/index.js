@@ -79,7 +79,7 @@ export default function Home() {
      
     <div className={styles.block_button }>
       <div className={styles.vk_block }>
-        <p className={styles.vk_title }>@cos_laboratories</p>
+        <p className={styles.vk_title }>@byclaudiungureanu</p>
      
         
       </div>
@@ -89,15 +89,13 @@ export default function Home() {
 		src={Favicon}
 		alt="Picture of the author"
 		width={42}
-	  /> <Link href="https://www.cos-laboratories.com/" className={styles.c_button_site_link }><p>cos-laboratories.com</p></Link></button>
+	  /> <Link href="https://byclaudiungureanu.ro/" className={styles.c_button_site_link }><p>byclaudiungureanu.ro</p></Link></button>
       <button className={styles.c_button }><Link href="https://pentru-par.cos-laboratories.com/"> <div className={styles.marquees } ><span className={styles.marquee }> &#9989; Vitamine pentru par complex de recuperare &#9989; </span></div></Link></button>
       <button className={styles.c_button } ><Link href="https://www.google.com/maps/place/C.O.S+Laboratories/@47.1487675,27.6434634,15z/data=!4m6!3m5!1s0x40caf9a6ab1f9bc1:0x34e6725adc68da!8m2!3d47.1487675!4d27.6434634!16s%2Fg%2F11jsghm_kt"><p>Google Maps</p></Link></button>
       <button className={styles.c_button }><Link href="https://www.youtube.com/channel/UCnIqJK0voUF-UkVbOf1TCUg"><p>Yutube</p></Link></button>
      
     </div>
-    <YouTube videoId="HdGVm98fSIk" 
-            opts={opts}  />
-  
+    
     
     </div>
     
