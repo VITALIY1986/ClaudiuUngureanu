@@ -46,11 +46,10 @@ export default function Home() {
 		<div className="abot-us ">
    
    <div className='grid-about-us'>
-      <h1><strong>Despre noi</strong></h1>
-      <p><strong>C.O.S. Laboratories</strong> este o companie specializată în producerea și comercializarea de tratamente integrate dedicate îmbunătățirii sănătății și stării de bine. Liniile noastre de produse includ suplimente alimentare, vitamine și minerale esențiale pentru funcționarea optimă a organismului, realizate cu respectarea celor mai înalte standarde de eficiență și puritate.</p>
-      <p>Sănătatea și starea ta de bine este Misiunea noastră. Și pentru a ne îndeplini Misiunea, punem experiența, profesionalismul și dedicarea noastră în tot ceea ce facem, pentru a produce suplimente alimentare, vitamine și minerale esențiale de calitate menite să îți dea energie, să îți aducă echilibru și să te susțină ca un partener în tot ceea ce îți propui să faci în fiecare zi.</p>
-      <p>Gama noastră de produse acoperă toate nevoile tale, de la suplimente alimentare și vitamine pentru echilibrul și starea ta de bine de zi cu zi până la pentru perioadele de efort prelungit și susținerea performanței.</p>
-      <p>Credem în ceea ce facem și te punem pe tine și nevoile tale în centrul preocupărilor noastre, de aceea investim în cercetare & dezvoltare pentru a crea mereu produse noi și îmbunătățite menite să îți ofere tot ceea ce ai nevoie pentru a te simți mereu plin de energie și pregătit să faci totul pentru a-ți îndeplini visele.</p>
+      <h1><strong>CREAREA UNUI COSTUM BESPOKE</strong></h1>
+      <p>  Costumul creat pe comandă este un obiect vestimentar de lux, în care finețea cusăturilor și unicitatea țesăturilor vă stau la dispoziție în <strong>Atelierul de creatie Claudiu Ungureanu, </strong>în număr de peste câteva mii de culori și desene, care oferă posibilitatea unei experiențe unice.</p>
+      <p>Purtătorul unui costum personalizat iese în evidență indiferent de circumstațe datorită opulenței subtile redate prin atenția la cele mai mici detalii.</p>
+      
    </div>
 		</div>
 			</section>
@@ -90,9 +89,9 @@ export default function Home() {
 		alt="Picture of the author"
 		width={42}
 	  /> <Link href="https://byclaudiungureanu.ro/" className={styles.c_button_site_link }><p>byclaudiungureanu.ro</p></Link></button>
-      <button className={styles.c_button }><Link href="https://pentru-par.cos-laboratories.com/"> <div className={styles.marquees } ><span className={styles.marquee }> &#9989; Vitamine pentru par complex de recuperare &#9989; </span></div></Link></button>
-      <button className={styles.c_button } ><Link href="https://www.google.com/maps/place/C.O.S+Laboratories/@47.1487675,27.6434634,15z/data=!4m6!3m5!1s0x40caf9a6ab1f9bc1:0x34e6725adc68da!8m2!3d47.1487675!4d27.6434634!16s%2Fg%2F11jsghm_kt"><p>Google Maps</p></Link></button>
-      <button className={styles.c_button }><Link href="https://www.youtube.com/channel/UCnIqJK0voUF-UkVbOf1TCUg"><p>Yutube</p></Link></button>
+      <button className={styles.c_button }><Link href="https://byclaudiungureanu.ro/pasii-unui-costum-bespoke/"> <div className={styles.marquees } ><span className={styles.marquee }> CROITORIA BESPOKE O ARTĂ A FRUMUSEȚII VĂZUTĂ ÎN MICILE DETALII </span></div></Link></button>
+      <button className={styles.c_button } ><Link href="https://www.google.com/maps/place/Claudiu+Ungureanu+Ceremony+Collection/@47.1338095,27.6107867,15z/data=!4m14!1m7!3m6!1s0x40cafbd016be1e19:0xd2826827429ced75!2sClaudiu+Ungureanu+Ceremony+Collection!8m2!3d47.1338095!4d27.6107867!16s%2Fg%2F1q66zskqd!3m5!1s0x40cafbd016be1e19:0xd2826827429ced75!8m2!3d47.1338095!4d27.6107867!16s%2Fg%2F1q66zskqd?entry=ttu"><p>Google Maps</p></Link></button>
+      <button className={styles.c_button }><Link href="https://www.youtube.com/@atelierclaudiuungureanu7975"><p>Yutube</p></Link></button>
      
     </div>
     
